@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "lodash-fp-typings",
+  "version": "0.0.1",
+  "license": "MIT",
+  "engines": {
+    "node": ">=7.8.0"
+  },
+  "scripts": {
+    "compile-scripts": "tsc -p scripts",
+    "not-needed": "node scripts/not-needed.js",
+    "test": "node node_modules/types-publisher/bin/tester/test.js --run-from-definitely-typed",
+    "lint": "dtslint types lodash-fp"
+  },
+  "devDependencies": {
+    "dtslint": "github:Microsoft/dtslint#production",
+    "types-publisher": "Microsoft/types-publisher#production"
+  }
+}

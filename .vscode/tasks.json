@@ -1,0 +1,36 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "dtslint",
+      "command": "./node_modules/.bin/dtslint types lodash-fp",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [
+        "$tslint5",
+        {
+          "fileLocation": "absolute",
+          "pattern": [
+            {
+              "regexp": "^Error: (.+)$",
+              "file": 1
+            },
+            {
+              "regexp": "^ERROR: (\\d+):(\\d+)\\s+expect\\s+(.*)$",
+              "line": 1,
+              "column": 2,
+              "message": 3,
+              "loop": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
