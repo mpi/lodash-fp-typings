@@ -5,6 +5,11 @@
 
 // TypeScript Version: 2.1
 
+/// <reference path="./add.d.ts" />
+/// <reference path="./subtract.d.ts" />
+/// <reference path="./multiply.d.ts" />
+/// <reference path="./divide.d.ts" />
+
 /// <reference path="./map.d.ts" />
 /// <reference path="./isEmpty.d.ts" />
 

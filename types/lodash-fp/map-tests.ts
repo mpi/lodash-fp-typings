@@ -17,3 +17,7 @@ fp.map((x) => x.prop, objects); // $ExpectType number[]
 fp.map('prop', objects); // $ExpectType number[]
 fp.map('prop');  // $ExpectType <V>(list: ArrayLike<{ prop: V; }>) => V[]
 fp.map('prop')(objects); // $ExpectType number[]
+
+isAliasOf(map, fp.map); // $ExpectType true
+
+declare function isAliasOf<T>(type: T, ...aliases: T[]): true;
