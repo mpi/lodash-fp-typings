@@ -5,7 +5,7 @@ declare namespace fp {
 
     /**
      * Assigns own enumerable string keyed properties of source objects to the
-     * destination object. Source objects are applied from left to right.
+     * destination object. Sources objects are applied from left to right.
      * Subsequent sources overwrite property assignments of previous sources.
      *
      * @static
@@ -13,7 +13,7 @@ declare namespace fp {
      * @since 0.10.0
      * @category Object
      * @param {Object} object The destination object.
-     * @param {Object} source The source object.
+     * @param {Object} source The sources object.
      * @returns {Object} Returns `object`.
      * @see _.assignIn
      * @example
@@ -32,8 +32,8 @@ declare namespace fp {
      * _.assign({ 'a': 0 }, new Foo, new Bar);
      * // => { 'a': 1, 'c': 3 }
      */
-    assign<S, O>(source: S, object: O): S & O;
-    assign<S, O>(source: S): (object: O) => S & O;
+    assign<O, S>(source: S, object: O): S & O;
+    assign<O, S>(source: S): (object: O) => S & O;
 
   }
 }
