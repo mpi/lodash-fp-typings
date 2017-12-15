@@ -4,7 +4,7 @@ declare namespace fp {
   interface Static {
 
     /**
-     * This method is like `_.assign` except that it accepts multiple
+     * This method is like `_.assignIn` except that it accepts multiple
      * sources as an array.
      *
      * @static
@@ -28,18 +28,18 @@ declare namespace fp {
      * Foo.prototype.b = 2;
      * Bar.prototype.d = 4;
      *
-     * _.assignAll([new Foo, new Bar], { 'a': 0 });
+     * _.assignInAll([new Foo, new Bar], { 'a': 0 });
      * // => { 'a': 1, 'c': 3 }
      */
 
-    assignAll<O>(sources: object[], object: O): any & O;
-    assignAll(sources: object[]): <O>(object: O) => any & O;
+    assignInAll<O>(sources: object[], object: O): any & O;
+    assignInAll(sources: object[]): <O>(object: O) => any & O;
 
   }
 }
 
-declare const assignAll: typeof fp.assignAll;
+declare const assignInAll: typeof fp.assignInAll;
 
-declare module "lodash/fp/assignAll" {
-  export default assignAll;
+declare module "lodash/fp/assignInAll" {
+  export default assignInAll;
 }

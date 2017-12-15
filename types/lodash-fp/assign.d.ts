@@ -20,16 +20,12 @@ declare namespace fp {
      *
      * function Foo() {
      *   this.a = 1;
-     * }
-     *
-     * function Bar() {
-     *   this.c = 3;
+     *   this.c = 3;*
      * }
      *
      * Foo.prototype.b = 2;
-     * Bar.prototype.d = 4;
      *
-     * _.assign({ 'a': 0 }, new Foo, new Bar);
+     * _.assign(new Foo, { 'a': 0 });
      * // => { 'a': 1, 'c': 3 }
      */
     assign<O, S>(source: S, object: O): S & O;

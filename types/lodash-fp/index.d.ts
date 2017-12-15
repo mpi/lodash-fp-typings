@@ -12,6 +12,11 @@
 /// <reference path="./assign.d.ts" />
 /// <reference path="./assignWith.d.ts" />
 /// <reference path="./assignAll.d.ts" />
+/// <reference path="./assignAllWith.d.ts" />
+/// <reference path="./assignIn.d.ts" />
+/// <reference path="./assignInWith.d.ts" />
+/// <reference path="./assignInAll.d.ts" />
+/// <reference path="./assignInAllWith.d.ts" />
 
 /// <reference path="./map.d.ts" />
 /// <reference path="./isEmpty.d.ts" />

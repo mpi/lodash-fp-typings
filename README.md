@@ -13,11 +13,11 @@
 - [ ] ? array
 - [ ] ! ary
 - [x] assignAll
-- [ ] assignAllWith
-- [ ] assignInAll
-- [ ] assignInAllWith
-- [ ] assignIn
-- [ ] assignInWith
+- [x] assignAllWith
+- [x] assignInAll
+- [x] assignInAllWith
+- [x] assignIn
+- [x] assignInWith
 - [x] assign
 - [x] assignWith
 - [ ] assoc
