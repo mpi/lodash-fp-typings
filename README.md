@@ -12,14 +12,14 @@
 - [ ] apply -> spread
 - [ ] ? array
 - [ ] ! ary
-- [ ] assignAll
+- [x] assignAll
 - [ ] assignAllWith
 - [ ] assignInAll
 - [ ] assignInAllWith
 - [ ] assignIn
 - [ ] assignInWith
 - [x] assign
-- [ ] assignWith
+- [x] assignWith
 - [ ] assoc
 - [ ] assocPath
 - [ ] at

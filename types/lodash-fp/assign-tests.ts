@@ -5,7 +5,8 @@ const source = { a: 1 };
 const object = { b: '1' };
 
 assign(source, object); // $ExpectType { a: number; } & { b: string; }
-assign(source); // $ExpectType (object: {}) => { a: number; }
+assign(source)(object); // $ExpectType { a: number; } & { b: string; }
+assign(source); // $ExpectType <O>(object: O) => { a: number; } & O
 
 // TODO: enhance typing
 // const sourceOverride = { b: 1 };

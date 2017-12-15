@@ -34,6 +34,7 @@ declare namespace fp {
      */
 
     assignAll<O>(source: object[], object: O): any & O;
+    assignAll<O>(source: object[]): (object: O) => any & O;
 
     // assignAll<O, S1>(source: [ S1 ], object: O): S1 & O;
     // assignAll<O, S1, S2>(source: [ S1, S2 ], object: O): S1 & S2 & O;

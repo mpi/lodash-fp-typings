@@ -33,7 +33,7 @@ declare namespace fp {
      * // => { 'a': 1, 'c': 3 }
      */
     assign<O, S>(source: S, object: O): S & O;
-    assign<O, S>(source: S): (object: O) => S & O;
+    assign<S>(source: S): <O>(object: O) => S & O;
 
   }
 }

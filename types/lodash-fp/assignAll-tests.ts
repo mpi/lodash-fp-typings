@@ -9,10 +9,10 @@ const object =  { z: '1' };
 
 const sources = [source1, source2, source3, source4];
 
-interface All { a: number; b: number; c: number; d: number; z: string; }
+let result: { a: number; b: number; c: number; d: number; z: string; };
 
-const all: All = assignAll(sources, object);
-// assignAll(sources);
+result = assignAll(sources, object);
+result = assignAll(sources)(object);
 
 isAliasOf(fp.assignAll, assignAll); // $ExpectType true
 

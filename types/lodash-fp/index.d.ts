@@ -10,6 +10,7 @@
 /// <reference path="./multiply.d.ts" />
 /// <reference path="./divide.d.ts" />
 /// <reference path="./assign.d.ts" />
+/// <reference path="./assignWith.d.ts" />
 /// <reference path="./assignAll.d.ts" />
 
 /// <reference path="./map.d.ts" />
