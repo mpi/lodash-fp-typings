@@ -164,8 +164,8 @@
 - [ ] isBuffer
 - [ ] isDate
 - [ ] isElement
-- [ ] isEmpty
-- [ ] isEqual
+- [x] isEmpty
+- [x] isEqual
 - [ ] isEqualWith
 - [ ] isError
 - [ ] isFinite
