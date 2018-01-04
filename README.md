@@ -188,7 +188,7 @@ test here: https://jsfiddle.net/7zdwbghL/
 - [ ] isRegExp
 - [ ] isSafeInteger
 - [ ] isSet
-- [ ] isString
+- [x] isString
 - [ ] isSymbol
 - [ ] isTypedArray
 - [ ] isUndefined

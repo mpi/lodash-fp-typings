@@ -23,6 +23,7 @@
 /// <reference path="./map.d.ts" />
 /// <reference path="./isBoolean.d.ts" />
 /// <reference path="./isBuffer.d.ts" />
+/// <reference path="./isString.d.ts" />
 /// <reference path="./isEmpty.d.ts" />
 /// <reference path="./isEqual.d.ts" />
 /// <reference path="./isNull.d.ts" />
