@@ -24,6 +24,7 @@
 /// <reference path="./isBoolean.d.ts" />
 /// <reference path="./isEmpty.d.ts" />
 /// <reference path="./isEqual.d.ts" />
+/// <reference path="./isNull.d.ts" />
 
 declare let fp: fp.Static;
 
