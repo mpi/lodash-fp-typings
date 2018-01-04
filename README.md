@@ -330,7 +330,7 @@ test here: https://jsfiddle.net/7zdwbghL/
 - [ ] stubTrue
 - [x] subtract
 - [ ] sumBy
-- [ ] sum
+- [x] sum
 - [ ] symmetricDifferenceBy
 - [ ] symmetricDifference
 - [ ] symmetricDifferenceWith
