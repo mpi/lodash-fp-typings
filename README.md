@@ -172,7 +172,7 @@ test here: https://jsfiddle.net/7zdwbghL/
 - [ ] isError
 - [ ] isFinite
 - [ ] isFunction
-- [ ] isInteger
+- [x] isInteger
 - [ ] isLength
 - [ ] isMap
 - [ ] isMatch

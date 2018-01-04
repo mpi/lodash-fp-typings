@@ -23,6 +23,7 @@
 /// <reference path="./map.d.ts" />
 /// <reference path="./isEmpty.d.ts" />
 /// <reference path="./isEqual.d.ts" />
+/// <reference path="./isInteger.d.ts" />
 
 declare let fp: fp.Static;
 
