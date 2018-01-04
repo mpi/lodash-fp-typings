@@ -29,6 +29,7 @@
 /// <reference path="./isEqual.d.ts" />
 /// <reference path="./isInteger.d.ts" />
 /// <reference path="./isNull.d.ts" />
+/// <reference path="./toLenght.d.ts" />
 
 declare let fp: fp.Static;
 
