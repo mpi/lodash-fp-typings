@@ -1,6 +1,8 @@
 
 # Lodash/fp typings
 
+test here: https://jsfiddle.net/7zdwbghL/
+
 # Progress
 - [x] add
 - [ ] after
