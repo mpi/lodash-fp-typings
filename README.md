@@ -162,8 +162,8 @@ test here: https://jsfiddle.net/7zdwbghL/
 - [ ] isArray
 - [ ] isArrayLike
 - [ ] isArrayLikeObject
-- [ ] isBoolean
-- [ ] isBuffer
+- [x] isBoolean
+- [x] isBuffer
 - [ ] isDate
 - [ ] isElement
 - [x] isEmpty
@@ -172,7 +172,7 @@ test here: https://jsfiddle.net/7zdwbghL/
 - [ ] isError
 - [ ] isFinite
 - [ ] isFunction
-- [ ] isInteger
+- [x] isInteger
 - [ ] isLength
 - [ ] isMap
 - [ ] isMatch
@@ -180,7 +180,7 @@ test here: https://jsfiddle.net/7zdwbghL/
 - [ ] isNaN
 - [ ] isNative
 - [ ] isNil
-- [ ] isNull
+- [x] isNull
 - [ ] isNumber
 - [ ] isObject
 - [ ] isObjectLike
@@ -188,7 +188,7 @@ test here: https://jsfiddle.net/7zdwbghL/
 - [ ] isRegExp
 - [ ] isSafeInteger
 - [ ] isSet
-- [ ] isString
+- [x] isString
 - [ ] isSymbol
 - [ ] isTypedArray
 - [ ] isUndefined
@@ -330,7 +330,7 @@ test here: https://jsfiddle.net/7zdwbghL/
 - [ ] stubTrue
 - [x] subtract
 - [ ] sumBy
-- [ ] sum
+- [x] sum
 - [ ] symmetricDifferenceBy
 - [ ] symmetricDifference
 - [ ] symmetricDifferenceWith
@@ -353,7 +353,7 @@ test here: https://jsfiddle.net/7zdwbghL/
 - [ ] toInteger
 - [ ] toIterator
 - [ ] toJSON
-- [ ] toLength
+- [x] toLength
 - [ ] toLower
 - [ ] toNumber
 - [ ] toPairsIn
