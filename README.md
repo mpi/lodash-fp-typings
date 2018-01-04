@@ -169,8 +169,8 @@ test here: https://jsfiddle.net/7zdwbghL/
 - [x] isEmpty
 - [x] isEqual
 - [ ] isEqualWith
-- [ ] isError
-- [ ] isFinite
+- [x] isError
+- [x] isFinite
 - [ ] isFunction
 - [x] isInteger
 - [ ] isLength
