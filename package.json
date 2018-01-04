@@ -13,7 +13,9 @@
     "lint": "dtslint types lodash-fp"
   },
   "devDependencies": {
+    "@types/node": "^8.5.5",
     "dtslint": "github:Microsoft/dtslint#production",
+    "node": "^9.3.0",
     "tslint": "^5.8.0",
     "types-publisher": "Microsoft/types-publisher#production",
     "typescript": "^2.6.2"
