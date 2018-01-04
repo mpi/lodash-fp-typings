@@ -162,7 +162,7 @@ test here: https://jsfiddle.net/7zdwbghL/
 - [ ] isArray
 - [ ] isArrayLike
 - [ ] isArrayLikeObject
-- [ ] isBoolean
+- [x] isBoolean
 - [ ] isBuffer
 - [ ] isDate
 - [ ] isElement
@@ -180,7 +180,7 @@ test here: https://jsfiddle.net/7zdwbghL/
 - [ ] isNaN
 - [ ] isNative
 - [ ] isNil
-- [ ] isNull
+- [x] isNull
 - [ ] isNumber
 - [ ] isObject
 - [ ] isObjectLike
