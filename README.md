@@ -220,7 +220,7 @@ test here: https://jsfiddle.net/7zdwbghL/
 - [ ] max
 - [ ] meanBy
 - [ ] mean
-- [ ] memoize
+- [x] memoize
 - [ ] mergeAll
 - [ ] mergeAllWith
 - [ ] merge

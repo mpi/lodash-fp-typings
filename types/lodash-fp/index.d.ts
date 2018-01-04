@@ -18,7 +18,11 @@
 /// <reference path="./assignInAll.d.ts" />
 /// <reference path="./assignInAllWith.d.ts" />
 
+/// <reference path="./max.d.ts" />
+/// <reference path="./maxBy.d.ts" />
+/// <reference path="./memoize.d.ts" />
 /// <reference path="./pick.d.ts" />
+/// <reference path="./property.d.ts" />
 
 /// <reference path="./map.d.ts" />
 /// <reference path="./isEmpty.d.ts" />
