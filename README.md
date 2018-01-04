@@ -353,7 +353,7 @@ test here: https://jsfiddle.net/7zdwbghL/
 - [ ] toInteger
 - [ ] toIterator
 - [ ] toJSON
-- [ ] toLength
+- [x] toLength
 - [ ] toLower
 - [ ] toNumber
 - [ ] toPairsIn
