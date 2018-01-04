@@ -19,6 +19,7 @@
 /// <reference path="./assignInAllWith.d.ts" />
 
 /// <reference path="./map.d.ts" />
+/// <reference path="./isBoolean.d.ts" />
 /// <reference path="./isEmpty.d.ts" />
 /// <reference path="./isEqual.d.ts" />
 
