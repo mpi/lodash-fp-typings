@@ -39,7 +39,7 @@ test here: https://jsfiddle.net/7zdwbghL/
 - [ ] clamp
 - [ ] cloneDeep
 - [ ] cloneDeepWith
-- [ ] clone
+- [x] clone
 - [ ] cloneWith
 - [ ] collection
 - [ ] commit
@@ -174,10 +174,10 @@ test here: https://jsfiddle.net/7zdwbghL/
 - [ ] isFunction
 - [x] isInteger
 - [ ] isLength
-- [ ] isMap
+- [x] isMap
 - [ ] isMatch
 - [ ] isMatchWith
-- [ ] isNaN
+- [x] isNaN
 - [ ] isNative
 - [ ] isNil
 - [x] isNull
