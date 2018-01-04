@@ -18,6 +18,7 @@
 /// <reference path="./assignInAll.d.ts" />
 /// <reference path="./assignInAllWith.d.ts" />
 
+/// <reference path="./clone.d.ts" />
 /// <reference path="./compact.d.ts" />
 /// <reference path="./pick.d.ts" />
 
