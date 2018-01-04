@@ -164,7 +164,7 @@ test here: https://jsfiddle.net/7zdwbghL/
 - [ ] isArrayLikeObject
 - [x] isBoolean
 - [x] isBuffer
-- [ ] isDate
+- [x] isDate
 - [ ] isElement
 - [x] isEmpty
 - [x] isEqual
