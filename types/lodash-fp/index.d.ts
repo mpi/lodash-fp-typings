@@ -18,6 +18,7 @@
 /// <reference path="./assignInAll.d.ts" />
 /// <reference path="./assignInAllWith.d.ts" />
 
+/// <reference path="./compact.d.ts" />
 /// <reference path="./pick.d.ts" />
 
 /// <reference path="./map.d.ts" />
@@ -26,6 +27,7 @@
 /// <reference path="./isString.d.ts" />
 /// <reference path="./isEmpty.d.ts" />
 /// <reference path="./isEqual.d.ts" />
+/// <reference path="./isInteger.d.ts" />
 /// <reference path="./isNull.d.ts" />
 /// <reference path="./sum.d.ts" />
 /// <reference path="./toLenght.d.ts" />
