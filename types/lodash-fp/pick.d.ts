@@ -8,7 +8,7 @@ declare namespace fp {
      * @memberOf _
      * @category Object
      * @param {...(string|string[])} [paths] The property paths to pick.
-     * @param {Object} object The source object.
+     * @param {Object} [object] object The source object.
      * @returns {Object} Returns the new object.
      * @example
      *

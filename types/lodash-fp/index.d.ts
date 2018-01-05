@@ -44,6 +44,7 @@
 /// <reference path="./isNull.d.ts" />
 /// <reference path="./isNumber.d.ts" />
 /// <reference path="./isMap.d.ts" />
+/// <reference path="./isMatch.d.ts" />
 /// <reference path="./isString.d.ts" />
 /// <reference path="./sum.d.ts" />
 /// <reference path="./toLenght.d.ts" />

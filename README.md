@@ -175,7 +175,7 @@ test here: https://jsfiddle.net/7zdwbghL/
 - [x] isInteger
 - [x] isLength
 - [x] isMap
-- [ ] isMatch
+- [x] isMatch
 - [ ] isMatchWith
 - [x] isNaN
 - [ ] isNative
