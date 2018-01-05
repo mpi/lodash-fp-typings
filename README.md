@@ -164,16 +164,16 @@ test here: https://jsfiddle.net/7zdwbghL/
 - [x] isArrayLikeObject
 - [x] isBoolean
 - [x] isBuffer
-- [ ] isDate
+- [x] isDate
 - [ ] isElement
 - [x] isEmpty
 - [x] isEqual
 - [ ] isEqualWith
-- [ ] isError
-- [ ] isFinite
-- [ ] isFunction
+- [x] isError
+- [x] isFinite
+- [x] isFunction
 - [x] isInteger
-- [ ] isLength
+- [x] isLength
 - [x] isMap
 - [ ] isMatch
 - [ ] isMatchWith
