@@ -171,7 +171,7 @@ test here: https://jsfiddle.net/7zdwbghL/
 - [ ] isEqualWith
 - [x] isError
 - [x] isFinite
-- [ ] isFunction
+- [x] isFunction
 - [x] isInteger
 - [ ] isLength
 - [x] isMap

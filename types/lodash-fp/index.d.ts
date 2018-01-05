@@ -34,6 +34,7 @@
 /// <reference path="./isEqual.d.ts" />
 /// <reference path="./isError.d.ts" />
 /// <reference path="./isFinite.d.ts" />
+/// <reference path="./isFunction.d.ts" />
 /// <reference path="./isInteger.d.ts" />
 /// <reference path="./isNaN.d.ts" />
 /// <reference path="./isNull.d.ts" />
