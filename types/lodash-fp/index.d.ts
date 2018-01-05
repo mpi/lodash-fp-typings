@@ -36,6 +36,7 @@
 /// <reference path="./isFinite.d.ts" />
 /// <reference path="./isFunction.d.ts" />
 /// <reference path="./isInteger.d.ts" />
+/// <reference path="./isLength.d.ts" />
 /// <reference path="./isNaN.d.ts" />
 /// <reference path="./isNull.d.ts" />
 /// <reference path="./isMap.d.ts" />

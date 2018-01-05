@@ -173,7 +173,7 @@ test here: https://jsfiddle.net/7zdwbghL/
 - [x] isFinite
 - [x] isFunction
 - [x] isInteger
-- [ ] isLength
+- [x] isLength
 - [x] isMap
 - [ ] isMatch
 - [ ] isMatchWith
