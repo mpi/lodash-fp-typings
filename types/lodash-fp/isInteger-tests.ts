@@ -1,9 +1,9 @@
 import isInteger from "lodash/fp/isInteger";
 import * as fp from "lodash/fp";
 
-isInteger(3); // $ExpecetType boolean
-isInteger('3'); // $ExpecetType boolean
-isInteger(Infinity); // $ExpecetType boolean
+isInteger(3); // $ExpectType boolean
+isInteger('3'); // $ExpectType boolean
+isInteger(Infinity); // $ExpectType boolean
 isInteger(Number.MIN_VALUE); // $ExpectType boolean
 isInteger(3.5); // $ExpectType boolean
 
@@ -14,7 +14,3 @@ if (isInteger(a)) {
 } else {
     a; // $ExpectType string
 }
-
-isAliasOf(fp.isInteger, isInteger); // $ExpectType true
-
-declare function isAliasOf<T>(type: T, alias: T): true;

@@ -42,6 +42,7 @@
 /// <reference path="./isLength.d.ts" />
 /// <reference path="./isNaN.d.ts" />
 /// <reference path="./isNull.d.ts" />
+/// <reference path="./isNumber.d.ts" />
 /// <reference path="./isMap.d.ts" />
 /// <reference path="./isString.d.ts" />
 /// <reference path="./sum.d.ts" />

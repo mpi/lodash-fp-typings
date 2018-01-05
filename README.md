@@ -181,7 +181,7 @@ test here: https://jsfiddle.net/7zdwbghL/
 - [ ] isNative
 - [ ] isNil
 - [x] isNull
-- [ ] isNumber
+- [x] isNumber
 - [ ] isObject
 - [ ] isObjectLike
 - [ ] isPlainObject
