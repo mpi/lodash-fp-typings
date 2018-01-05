@@ -159,9 +159,9 @@ test here: https://jsfiddle.net/7zdwbghL/
 - [ ] invokeMap
 - [ ] isArguments
 - [ ] isArrayBuffer
-- [ ] isArray
-- [ ] isArrayLike
-- [ ] isArrayLikeObject
+- [x] isArray
+- [x] isArrayLike
+- [x] isArrayLikeObject
 - [x] isBoolean
 - [x] isBuffer
 - [ ] isDate

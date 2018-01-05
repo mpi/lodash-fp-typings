@@ -27,6 +27,9 @@
 /// <reference path="./property.d.ts" />
 
 /// <reference path="./map.d.ts" />
+/// <reference path="./isArray.d.ts" />
+/// <reference path="./isArrayLike.d.ts" />
+/// <reference path="./isArrayLikeObject.d.ts" />
 /// <reference path="./isBoolean.d.ts" />
 /// <reference path="./isBuffer.d.ts" />
 /// <reference path="./isString.d.ts" />
